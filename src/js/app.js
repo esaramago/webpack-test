@@ -1,10 +1,4 @@
-//import css from "../css/main.scss";
-
 import { secretParagraph, secretButton, a } from "./dom-loader";
-
-
-`var b = 1;`
-
 
 
 

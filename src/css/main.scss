@@ -1,5 +1,5 @@
 
-@import "input-elements.css";
+@import "input-elements.scss";
 
 body {
     font-family: Helvetica, Arial, sans-serif;
@@ -9,6 +9,10 @@ body {
 h1 {
     font-size: 28px;
     margin: 20px;
+}
+
+ul {
+    margin: 0;
 }
 
 p {
