@@ -54,8 +54,10 @@ module.exports = {
         ]
     },
     devtool: 'source-map', // create sourcemaps
-    watch: true
+    //watch: true
 }
+
+
 
 
 // __SINGLE FILE BUNDLE __________________________________________________________

@@ -1,7 +1,5 @@
 import { secretParagraph, secretButton, a } from "./modules/dom-loader";
 
-
-
 var showSecret = false;
 
 secretButton.addEventListener('click', toggleSecretState);
