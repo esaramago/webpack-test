@@ -1,8 +1,6 @@
-import { secretParagraph, secretButton, a } from "./dom-loader";
+import { secretParagraph, secretButton, a } from "./modules/dom-loader";
 
 
-
-// ______________________________
 
 var showSecret = false;
 
