@@ -1,3 +1,7 @@
+import Vue from "vue";
+import React from "react";
+import "bootstrap.native";
+
 import { secretParagraph, secretButton, a } from "./modules/dom-loader";
 
 var showSecret = false;
@@ -26,3 +30,12 @@ function updateSecretParagraph() {
         secretParagraph.style.display = 'none';
     }
 }
+
+
+
+const App = new Vue ({
+    el: "#app",
+    data: {
+        message: "Lorem ipsum"
+    }
+});
