@@ -8,6 +8,5 @@ const { merge } = require("webpack-merge"); // junta as configurações comuns �
 
 module.exports = merge(common, {
     mode: "development",
-    devtool: 'source-map', // create sourcemaps
     watch: true
 });
